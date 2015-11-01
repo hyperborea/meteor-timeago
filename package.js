@@ -14,8 +14,9 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   
   api.use('ecmascript');
-  api.use('blaze');
+  api.use('templating');
+  api.use('reactive-var');
   api.use('momentjs:moment');
 
-  api.addFiles('timeago.js');
+  api.addFiles('timeago.js', 'client');
 });
