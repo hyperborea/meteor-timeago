@@ -16,7 +16,7 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.use('templating');
   api.use('reactive-var');
-  api.use('momentjs:moment');
+  api.use('momentjs:moment@2.10.0');
 
   api.addFiles('timeago.js', 'client');
 });
