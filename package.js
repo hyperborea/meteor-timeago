@@ -1,6 +1,6 @@
 Package.describe({
   name: 'hyperborea:timeago',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'Adding reactive timeAgo helper.',
   // URL to the Git repository containing the source code for this package.
@@ -16,7 +16,7 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.use('templating');
   api.use('reactive-var');
-  api.use('momentjs:moment@2.10.0');
+  api.use('momentjs:moment@2.10.6');
 
   api.addFiles('timeago.js', 'client');
 });
